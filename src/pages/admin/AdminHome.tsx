@@ -233,35 +233,6 @@ export default function AdminHome() {
         </Card>
 
         {/* Top Products */}
-        <Card className="bg-white shadow-sm">
-          <CardHeader className="p-4">
-            <CardTitle>Top Products</CardTitle>
-          </CardHeader>
-          <CardContent className="p-4 pt-0">
-            <div className="space-y-3">
-              {[
-                { id: "1", name: "Masa", sales: "₦25,000", orders: 34 },
-                { id: "2", name: "Egusi Soup", sales: "₦18,000", orders: 22 },
-                { id: "3", name: "Zobo Drink", sales: "₦12,000", orders: 15 },
-              ].map((item) => (
-                <div
-                  key={item.id}
-                  className="flex items-center justify-between p-3 border rounded-lg"
-                >
-                  <div>
-                    <p className="font-medium">{item.name}</p>
-                    <p className="text-xs text-neutral-500 mt-1">
-                      {item.orders} orders
-                    </p>
-                  </div>
-                  <div className="text-right font-semibold text-neutral-900">
-                    {item.sales}
-                  </div>
-                </div>
-              ))}
-            </div>
-          </CardContent>
-        </Card>
       </div>
 
       <Card className="border-0 shadow-sm bg-white">

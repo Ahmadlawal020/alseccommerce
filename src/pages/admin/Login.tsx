@@ -121,7 +121,7 @@ export default function Login() {
         </Card>
 
         <div className="text-center text-xs text-neutral-500">
-          © {new Date().getFullYear()} Masa Admin. All rights reserved.
+          © {new Date().getFullYear()} Admin. All rights reserved.
         </div>
       </div>
     </div>
